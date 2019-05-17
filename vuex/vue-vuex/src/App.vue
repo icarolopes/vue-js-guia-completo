@@ -9,8 +9,17 @@
     </div>
 
     <div class="container">
-
+      <contador />
     </div>
 
   </div>
 </template>
+
+<script>
+import Contador from '@/components/Contador'
+export default {
+  components: {
+    Contador
+  }
+}
+</script>
